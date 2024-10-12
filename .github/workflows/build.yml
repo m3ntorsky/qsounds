@@ -27,7 +27,7 @@ jobs:
       - name: Temporarily update Lua file version for release
         id: update_version
         run: |
-          VERSION_FILE="plugins/tags/core.lua"
+          VERSION_FILE="plugins/qsounds/core.lua"
           TAG_VERSION="${GITHUB_REF##*/}"
 
           echo "Version file: $VERSION_FILE"
