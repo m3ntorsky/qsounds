@@ -1,0 +1,5 @@
+hit
+hithead
+kill => played everykill
+
+kill:{count} =>player on x count kill

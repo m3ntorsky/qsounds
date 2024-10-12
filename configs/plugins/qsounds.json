@@ -1,0 +1,145 @@
+{
+    "command_aliases" : ["quake","sounds"],
+    "count_per_round" : false,
+    "enable_on_warmup": false,
+    "menu" : {
+        "color" : "00FF21",
+        "options": {
+            "hit": true,
+            "hithead": true,
+            "quake": true
+        }
+    },
+    "events": {
+        "hit" : {
+            "type":"sound",
+            "path": "sounds/training/timer_bell.vsnd"
+        },
+        "hithead": {
+            "type": "soundevent",
+            "name": "eKill.Hit.Head"
+        },
+        "firstblood": {
+            "type": "soundevent",
+            "name": "eKill.Quake.Firstblood"
+        },
+        "kills": {
+            "type": "soundevent",
+            "name": "eKill.Quake.Impressive"           
+        },
+        "kill:headshot": {
+            "type": "soundevent",
+            "name": "eKill.Quake.Headshot2"
+        },
+        "kill:2": {
+            "type": "soundevent",
+            "name": "eKill.Quake.Doublekill2"            
+        },
+        "kill:3": {
+            "type": "soundevent",
+            "name": "eKill.Quake.Triplekill"
+        },
+        "kill:4": {
+            "type": "soundevent",
+            "name": "eKill.Quake.Ultrakill2"
+        },
+        "kill:5": {
+            "type": "soundevent",
+            "name": "eKill.Quake.Pentakill"
+        },
+        "game_event:OnPlayerSpawn": {
+            "type": "soundevent",
+            "name": "eKill.Quake.Pickupyourweaponsandfight"
+        },
+        "game_event:OnRoundStart" : {
+            "type": "soundevent",
+            "name": "eKill.Quake.Play"
+        },
+        "game_event:OnRoundEnd": {
+            "type": "soundevent",
+            "name": "eKill.Quake.Laughs2"
+        },
+        "game_event:OnRoundFreezeEnd": {
+            "type": "soundevent",
+            "name": "eKill.Quake.Preparetofight"
+        }    
+    },
+    "list": [
+        "sounds/training/timer_bell.vsnd",
+        "sounds/training/bell_impact.vsnd",
+        "sounds/ekill/quake/assassin.vsnd",
+        "sounds/ekill/quake/bullseye.vsnd",
+        "sounds/ekill/quake/comboking.vsnd",
+        "sounds/ekill/quake/dominating.vsnd",
+        "sounds/ekill/quake/dominating2.vsnd",
+        "sounds/ekill/quake/doublekill.vsnd",
+        "sounds/ekill/quake/doublekill2.vsnd",
+        "sounds/ekill/quake/doublekill3.vsnd",
+        "sounds/ekill/quake/eagleeye.vsnd",
+        "sounds/ekill/quake/eagleeye2.vsnd",
+        "sounds/ekill/quake/excellent.vsnd",
+        "sounds/ekill/quake/firstblood.vsnd",
+        "sounds/ekill/quake/firstblood2.vsnd",
+        "sounds/ekill/quake/firstblood3.vsnd",
+        "sounds/ekill/quake/firstblood4.vsnd",
+        "sounds/ekill/quake/flawlessvictory.vsnd",
+        "sounds/ekill/quake/godlike.vsnd",
+        "sounds/ekill/quake/godlike2.vsnd",
+        "sounds/ekill/quake/hattrick.vsnd",
+        "sounds/ekill/quake/hattrick2.vsnd",
+        "sounds/ekill/quake/headhunter.vsnd",
+        "sounds/ekill/quake/headhunter2.vsnd",
+        "sounds/ekill/quake/headshot.vsnd",
+        "sounds/ekill/quake/headshot2.vsnd",
+        "sounds/ekill/quake/headshot3.vsnd",
+        "sounds/ekill/quake/headshot4.vsnd",
+        "sounds/ekill/quake/hexakill.vsnd",
+        "sounds/ekill/quake/holyshit.vsnd",
+        "sounds/ekill/quake/humiliating.vsnd",
+        "sounds/ekill/quake/humiliatingdefeat.vsnd",
+        "sounds/ekill/quake/humiliation.vsnd",
+        "sounds/ekill/quake/iamtheoneandonly.vsnd",
+        "sounds/ekill/quake/impressive.vsnd",
+        "sounds/ekill/quake/killingmachine.vsnd",
+        "sounds/ekill/quake/killingspree.vsnd",
+        "sounds/ekill/quake/killingspree2.vsnd",
+        "sounds/ekill/quake/laughs.vsnd",
+        "sounds/ekill/quake/laughs2.vsnd",
+        "sounds/ekill/quake/laughs3.vsnd",
+        "sounds/ekill/quake/laughs4.vsnd",
+        "sounds/ekill/quake/ludicrouskill.vsnd",
+        "sounds/ekill/quake/maniac.vsnd",
+        "sounds/ekill/quake/massacre.vsnd",
+        "sounds/ekill/quake/megakill.vsnd",
+        "sounds/ekill/quake/megakill2.vsnd",
+        "sounds/ekill/quake/monsterkill.vsnd",
+        "sounds/ekill/quake/monsterkill2.vsnd",
+        "sounds/ekill/quake/multikill.vsnd",
+        "sounds/ekill/quake/multikill2.vsnd",
+        "sounds/ekill/quake/outstanding.vsnd",
+        "sounds/ekill/quake/ownage.vsnd",
+        "sounds/ekill/quake/pancake.vsnd",
+        "sounds/ekill/quake/payback.vsnd",
+        "sounds/ekill/quake/pentakill.vsnd",
+        "sounds/ekill/quake/pickupyourweaponsandfight.vsnd",
+        "sounds/ekill/quake/play.vsnd",
+        "sounds/ekill/quake/prepareforbattle.vsnd",
+        "sounds/ekill/quake/preparetofight.vsnd",
+        "sounds/ekill/quake/quadrakill.vsnd",
+        "sounds/ekill/quake/rampage.vsnd",
+        "sounds/ekill/quake/rampage2.vsnd",
+        "sounds/ekill/quake/retribution.vsnd",
+        "sounds/ekill/quake/shutdown.vsnd",
+        "sounds/ekill/quake/teamkiller.vsnd",
+        "sounds/ekill/quake/triplekill.vsnd",
+        "sounds/ekill/quake/ultrakill.vsnd",
+        "sounds/ekill/quake/ultrakill2.vsnd",
+        "sounds/ekill/quake/unreal.vsnd",
+        "sounds/ekill/quake/unstoppable.vsnd",
+        "sounds/ekill/quake/unstoppable2.vsnd",
+        "sounds/ekill/quake/vengeance.vsnd",
+        "sounds/ekill/quake/whickedsick.vsnd",
+        "sounds/ekill/quake/youarethelastmanstanding.vsnd",
+        "sounds/ekill/quake/yourefunny.vsnd"
+    ]  
+}

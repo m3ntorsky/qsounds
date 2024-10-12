@@ -1,0 +1,20 @@
+{
+    "menu.title" : {
+        "en": "Sounds Control"
+    },
+    "menu.on" : {
+        "en": "<font color='#00FF00'>✔</font>"
+    },
+    "menu.off" : {
+        "en": "<font color='#FF0000'>✖</font>"
+    },
+    "menu.option.hit" : {
+        "en": "Body Hit Sound"
+    },
+    "menu.option.hithead": {
+        "en": "Head Hit Sound"
+    },
+    "menu.option.quake": {
+        "en": "Quake Sound"
+    }
+}
