@@ -26,7 +26,7 @@
 ## Installation 👀
 1. Download the newest [release](https://github.com/m3ntorsky/qsounds/releases)
 2. Everything is drag & drop, so I think you can do it!
-3. If you want you can use my own quake-sounds from workshop [eKill-Sounds](https://steamcommunity.com/sharedfiles/filedetails/?id=3347175501) Every available sounds paths and eventsname you can find [HERE](https://steamcommunity.com/sharedfiles/filedetails/?id=3347175501)
+3. If you want you can use my own quake-sounds from workshop [eKill-Sounds](https://steamcommunity.com/sharedfiles/filedetails/?id=3347175501) Every available sounds paths and eventsname you can find [HERE](https://github.com/m3ntorsky/qsounds/blob/master/addons/events.txt)
 
 ## Configuring the plugin 🧐
 - After installing the plugin, you can change the prefix and the database settings from `addons/swiftly/configs/plugins/qsounds.json`
